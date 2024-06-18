@@ -1,11 +1,19 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 
 const FeaturedJobCard = ({ job }) => {
   return (
-    <View style={styles.card}>
-      <Text style={styles.title}>{job.title}</Text>
-      <Text style={styles.company}>{job.company}</Text>
+    <View style={[styles.card, { backgroundColor: job.background }]}>
+      <Image
+        source={job.image} // Use dynamic image path from job object
+        style={styles.logo}
+      />
+      <View>
+        <Text style={styles.title}>{job.title}</Text>
+        <Text style={styles.company}>{job.company}</Text>
+        <Text style={styles.salary}>{job.salary}</Text>
+        <Text style={styles.location}>{job.location}</Text>
+      </View>
     </View>
   );
 };
@@ -13,22 +21,32 @@ const FeaturedJobCard = ({ job }) => {
 const styles = StyleSheet.create({
   card: {
     padding: 16,
-    marginBottom: 8,
-    backgroundColor: "#f0f8ff",
-    borderRadius: 8,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 2,
+    borderRadius: 10,
+    marginRight: 10,
+    alignItems: "flex-start",
+    width: 200,
+  },
+  logo: {
+    width: 50,
+    height: 50,
+    marginBottom: 10,
   },
   title: {
     fontSize: 18,
     fontWeight: "bold",
+    color: "#FFF",
   },
   company: {
+    fontSize: 16,
+    color: "#FFF",
+  },
+  salary: {
     fontSize: 14,
-    color: "gray",
+    color: "#FFF",
+  },
+  location: {
+    fontSize: 14,
+    color: "#FFF",
   },
 });
 
