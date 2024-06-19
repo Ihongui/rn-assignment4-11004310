@@ -27,6 +27,7 @@ import PopularJobCard from "../components/PopularJobCard";
 
 <PopularJobCard key={job.id} job={job} />
 ## LET' TAKE A SCREENSHOT
+
 ![image](https://github.com/Ihongui/rn-assignment4-11004310/assets/150761912/f6cc6d05-4964-4438-ba0a-42ae609d0705)
 ![image](https://github.com/Ihongui/rn-assignment4-11004310/assets/150761912/689c83f7-1ba0-4377-b6d3-357941d59ece)
 ![image](https://github.com/Ihongui/rn-assignment4-11004310/assets/150761912/c7f24773-b06b-4130-ab4c-663d46a5ca1d)
