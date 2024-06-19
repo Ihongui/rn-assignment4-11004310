@@ -4,10 +4,7 @@ import { View, Text, StyleSheet, Image } from "react-native";
 const FeaturedJobCard = ({ job }) => {
   return (
     <View style={[styles.card, { backgroundColor: job.background }]}>
-      <Image
-        source={job.image} // Use dynamic image path from job object
-        style={styles.logo}
-      />
+      <Image source={job.image} style={styles.logo} />
       <View>
         <Text style={styles.title}>{job.title}</Text>
         <Text style={styles.company}>{job.company}</Text>
@@ -24,7 +21,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginRight: 10,
     alignItems: "flex-start",
-    width: 200,
+    width: 260,
   },
   logo: {
     width: 50,
@@ -35,18 +32,25 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     color: "#FFF",
+    top: -60,
+    left: 60,
   },
   company: {
     fontSize: 16,
     color: "#FFF",
+    top: -60,
+    left: 60,
   },
   salary: {
     fontSize: 14,
     color: "#FFF",
+    top: 12,
   },
   location: {
     fontSize: 14,
     color: "#FFF",
+    top: -8,
+    left: 130,
   },
 });
 

@@ -17,8 +17,8 @@ const featuredJobs = [
     company: "Facebook",
     salary: "$180,000",
     location: "Accra, Ghana",
-    background: "#FFD700",
-    image: require("../assets/photo21.jpg"),
+    background: "#489FF9",
+    image: require("../assets/Facebook.png"),
   },
   {
     id: 2,
@@ -26,8 +26,8 @@ const featuredJobs = [
     company: "Google",
     salary: "$160,000",
     location: "Accra, Ghana",
-    background: "#00BFFF",
-    image: require("../assets/favicon.png"),
+    background: "#0A396A",
+    image: require("../assets/Picture2.png"),
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const featuredJobs = [
     salary: "$150,000",
     location: "San Francisco, US",
     background: "#FF6347",
-    image: require("../assets/icon.png"),
+    image: require("../assets/UxDseign.jpg"),
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const featuredJobs = [
     salary: "$170,000",
     location: "Seattle, US",
     background: "#8A2BE2",
-    image: require("../assets/splash.png"),
+    image: require("../assets/datasc.jpg"),
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ const featuredJobs = [
     salary: "$165,000",
     location: "New York, US",
     background: "#7FFF00",
-    image: require("../assets/photo21.jpg"),
+    image: require("../assets/dev.jpg"),
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const featuredJobs = [
     salary: "$155,000",
     location: "Los Gatos, US",
     background: "#FF4500",
-    image: require("../assets/photo21.jpg"),
+    image: require("../assets/PM.jpg"),
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ const featuredJobs = [
     salary: "$160,000",
     location: "Palo Alto, US",
     background: "#1E90FF",
-    image: require("../assets/favicon.png"),
+    image: require("../assets/Fullstact.jpg"),
   },
   {
     id: 8,
@@ -81,7 +81,7 @@ const featuredJobs = [
     salary: "$175,000",
     location: "San Francisco, US",
     background: "#FFD700",
-    image: require("../assets/icon.png"),
+    image: require("../assets/Blockchain Developer.jpg"),
   },
 ];
 
@@ -92,7 +92,7 @@ const popularJobs = [
     company: "Burger King",
     salary: "$96,000/y",
     location: "Los Angeles, US",
-    image: require("../assets/favicon.png"),
+    image: require("../assets/Picture3.png"),
   },
   {
     id: 2,
@@ -100,7 +100,7 @@ const popularJobs = [
     company: "Beats",
     salary: "$84,000/y",
     location: "Florida, US",
-    image: require("../assets/photo21.jpg"),
+    image: require("../assets/Picture4.png"),
   },
   {
     id: 3,
@@ -108,7 +108,7 @@ const popularJobs = [
     company: "Facebook",
     salary: "$86,000/y",
     location: "Florida, US",
-    image: require("../assets/adaptive-icon.png"),
+    image: require("../assets/Picture1.png"),
   },
   {
     id: 4,
@@ -116,7 +116,7 @@ const popularJobs = [
     company: "Toyota",
     salary: "$86,000/y",
     location: "Japan, JA",
-    image: require("../assets/icon.png"),
+    image: require("../assets/Toyota.jpg"),
   },
   {
     id: 5,
@@ -124,7 +124,7 @@ const popularJobs = [
     company: "Amazon",
     salary: "$86,000/y",
     location: "Florida, US",
-    image: require("../assets/favicon.png"),
+    image: require("../assets/amazon.jpg"),
   },
   {
     id: 6,
@@ -132,15 +132,15 @@ const popularJobs = [
     company: "Samsung",
     salary: "$86,000/y",
     location: "Florida, US",
-    image: require("../assets/photo21.jpg"),
+    image: require("../assets/Samsung.jpg"),
   },
   {
     id: 7,
     title: "Project Manager",
-    company: "Facebook",
+    company: "Apple",
     salary: "$86,000/y",
     location: "Florida, US",
-    image: require("../assets/favicon.png"),
+    image: require("../assets/Apple.jpg"),
   },
   {
     id: 8,
@@ -148,7 +148,7 @@ const popularJobs = [
     company: "Twitter",
     salary: "$90,000/y",
     location: "San Francisco, US",
-    image: require("../assets/splash.png"),
+    image: require("../assets/Twitter.jpg"),
   },
 ];
 
